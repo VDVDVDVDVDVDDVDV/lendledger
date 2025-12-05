@@ -1,0 +1,64 @@
+name: lendledger
+description: Professional money lending tracker with interest calculation and payment schedules
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI & Icons
+  cupertino_icons: ^1.0.6
+  google_fonts: ^6.1.0
+  
+  # State Management
+  provider: ^6.1.1
+  
+  # Local Database
+  sqflite: ^2.3.0
+  path_provider: ^2.1.1
+  path: ^1.8.3
+  
+  # Authentication
+  local_auth: ^2.1.7
+  local_auth_android: ^1.0.34
+  local_auth_ios: ^1.1.5
+  
+  # Encryption
+  encrypt: ^5.0.3
+  crypto: ^3.0.3
+  
+  # Notifications
+  flutter_local_notifications: ^16.3.0
+  timezone: ^0.9.2
+  
+  # Charts & Graphs
+  fl_chart: ^0.66.0
+  
+  # Date & Time
+  intl: ^0.19.0
+  
+  # Firebase (Optional - for cloud backup)
+  firebase_core: ^2.24.2
+  firebase_auth: ^4.16.0
+  cloud_firestore: ^4.14.0
+  
+  # Utilities
+  uuid: ^4.3.3
+  shared_preferences: ^2.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+  
+  # Assets
+  # assets:
+  #   - images/
+  #   - icons/
